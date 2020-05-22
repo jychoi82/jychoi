@@ -2293,10 +2293,6 @@ while True:
 			return
 
 	################ ?????????????? ################ 
-	@client.command(name='!안녕')
-	async def hello_(ctx):
-		await PlaySound(voice_client1, './sound/hello.mp3')
-		
 	@client.command(name='!오빠')
 	async def brother1_(ctx):
 		await PlaySound(voice_client1, './sound/오빠.mp3')
